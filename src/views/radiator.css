@@ -1,3 +1,31 @@
 .radiator-view {
   width: 100vw;
 }
+
+.workflow-item {
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.workflow-item-labels {
+  text-align: center;
+}
+
+.green {
+  background-color: #5aa469;
+}
+
+.red {
+  background-color: #d35d6e;
+}
+
+.yellow {
+  background-color: #f8d49d;
+}
+
+.white {
+  background-color: #faf3f3;
+}
