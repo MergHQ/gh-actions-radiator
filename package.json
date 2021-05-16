@@ -1,0 +1,19 @@
+{
+  "description": "description",
+  "authors": "Hugo H",
+  "version": "1.0.0",
+  "main": "pathToMain",
+  "dependencies": {
+    "@babel/preset-react": "^7.13.13",
+    "@babel/preset-typescript": "^7.13.0",
+    "axios": "^0.21.1",
+    "harmaja": "^0.24.0",
+    "lonna": "^0.12.1"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.2"
+  },
+  "scripts": {
+    "dev": "parcel public/index.html"
+  }
+}

@@ -1,0 +1,15 @@
+.setup-view {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.setup-modal {
+  width: 600px;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+  border: 1px solid black;
+  border-radius: 3px;
+}
