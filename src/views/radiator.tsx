@@ -15,7 +15,11 @@ export const RadiatorView = ({ user, repo, token }: Props) => {
     <div className="radiator-view">
       {startPoll({ user, repo }, token).pipe(
         L.map((workflows: any) =>
-          workflows.workflow_runs.map((r: any) => <p>{r.name}</p>)
+          workflows.workflow_runs.map((r: any) => (
+            <p>
+              {r.name} {r.conclusion}
+            </p>
+          ))
         ),
         L.toProperty([], L.globalScope)
       )}
